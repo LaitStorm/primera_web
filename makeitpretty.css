@@ -1,0 +1,44 @@
+
+nav ul { 
+    background-color: #B46ce2;
+    border: 2px #B46ce2;
+    border-radius: 10px;
+    
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.infr{ 
+    float: right;
+    width: 800px;
+    margin: 20px;
+}
+
+#rat{ 
+    margin: 5px;
+    box-shadow: 0px 1px 10px 3px #2596be;
+}
+
+#wal{ 
+    margin: 5px;
+    box-shadow: 0px 1px 10px 3px #efb971;
+}
+
+#red{ 
+    margin: 5px;
+    box-shadow: 0px 1px 10px 3px #E83939;
+}
+
+.finall{
+    padding: 5px;
+    width: 1500px;
+    border: 1px dashed black;
+    border-radius: 10px;
+}
+
+#cocina{color: #2596be;}
+#plant{color:#efb971;}
+#turn{color: #E83939;}
+#music{color:#B9cb67;}
