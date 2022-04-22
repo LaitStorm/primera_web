@@ -3,6 +3,8 @@
         <title> Mejores películas de PIXAR </title>
         <meta charset="utf-8">
         <link href = "makeitpretty.css" rel="stylesheet">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+        <script src="app.js"></script>
     </head>
     <body>
         <h1> Mis películas favoritas de <em>Pixar</em> </h1>
@@ -26,11 +28,15 @@
         </div>
 
         <h2 id="turn"> Turning Red </h2>
-        <p class="infr"> La más reciente entrega del estudio se trata de la China-Canadiense de 13 años Mei, quien se enfrenta a la disyuntiva entre seguir siendo la niña perfecta que su madre adora o dejarse llevar por el caos de la 
+        <p class="infr" id="redder"> La más reciente entrega del estudio se trata de la China-Canadiense de 13 años Mei, quien se enfrenta a la disyuntiva entre seguir siendo la niña perfecta que su madre adora o dejarse llevar por el caos de la 
             adolescencia. Y si los problemas de una típica adolescente no fueran suficientes, ella se transforma en un gigante panda rojo cada vez que siente emociones fuertes. La animación tiene un estilo tan llamativo, 
             que le da una personalidad carismática al filme, además de mostra muchos escenarios que se asemejan bastante a lo que muchas pasamos durante la pubertad. Pero no se dejen engañar, la emotiva narrativa tambien logra que caigan algunas lágrimas.</p>
         <div>
-            <img id="red" src="imag/turning red.jpg" width = "700"
+            <a id="buton"> Trata de adivinar de que se trata... (hazme click) </a>
+            <img id="red" src="imag/turning red.jpg" width = "700" />
+            <a id="but2"> Es mucho aaaaa (simple, hazlo desaparecer (click))</a>
+            <br> </br>
+            <a id ="but3"> ok pero se veia tierno ese panda rojo, lo quiero de vuelta (click aqui) </a>
         </div>
 
         <h2 id="music"> Música</h2>
@@ -43,9 +49,9 @@
             </ul>
         </nav>
 
-        <div class="finall">
+        <div class="finall" id="concl">
             <p>En conclusión, adoro el poder imaginativo y el talento de este estudio de animación, y espero que sigan trayendo increíbles historias, como las que mencioné, a grandes audiencias durante muchos años más. 
-                P.d. No soy tan consumista, lo juro. </p> 
+            </p> 
         </div>
 
     </body>
